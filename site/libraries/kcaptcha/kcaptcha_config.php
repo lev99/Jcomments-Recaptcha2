@@ -14,5 +14,5 @@ $show_credits = false;
 $credits = 'www.joomlatune.ru';
 $foreground_color = array(180, 180, 180);
 $background_color = array(246, 246, 246);
-$jpeg_quality = 90;
+$jpeg_quality = 75;
 ?>
