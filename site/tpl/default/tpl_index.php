@@ -74,7 +74,7 @@ jcomments.setList('comments-list');
 				}
 			}
 ?>
-<div id="comments-footer" align="center"><?php echo $this->getVar('support'); ?></div>
+<div id="comments-footer" style="margin-left: auto; margin-right: auto;"><?php echo $this->getVar('support'); ?></div>
 <?php
 			// Some magic like dynamic comments list loader (anticache) and auto go to anchor script
 			$aca = (int) ($this->getVar('comments-gotocomment') == 1);
